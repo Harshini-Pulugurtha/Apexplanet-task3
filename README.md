@@ -4,13 +4,17 @@
 🌐 Advanced Styling and JavaScript
 
 This project is part of my ApexPlanet Internship – Task 3.
+
 It focuses on responsive design, interactive JavaScript projects, and API integration to enhance front-end development skills.
 
 🚀 Features
 
 ✔️ Applied responsive design using CSS media queries for mobile, tablet, and desktop views.
+
 ✔️ Built an interactive project – Quiz / Image Carousel with user interaction.
+
 ✔️ Fetched and displayed real-time data from a public API (e.g., Weather/Jokes API).
+
 ✔️ Implemented dynamic JavaScript features for a better user experience.
 
 🛠️ Technologies Used
