@@ -1,0 +1,47 @@
+<!-- weather.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Checker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="weather.html">Weather</a> |
+    <a href="quiz.html">Quiz</a>
+  </nav>
+
+  <h2>☁️ Weather Checker ☁️</h2>
+
+  <form id="weatherForm">
+    <label for="citySelect"><strong>Select a City:</strong></label>
+    <select id="citySelect">
+      <option value="">--Choose a city--</option>
+      <option value="Delhi,IN">Delhi</option>
+      <option value="New York,US">New York</option>
+      <option value="Mumbai,IN">Mumbai</option>
+      <option value="Chennai,IN">Chennai</option>
+      <option value="Kolkata,IN">Kolkata</option>
+      <option value="Paris,FR">Paris</option>
+      <option value="Hyderabad,IN">Hyderabad</option>
+      <option value="London,GB">London</option>      
+      <option value="Tokyo,JP">Tokyo</option>
+      <option value="Sydney,AU">Sydney</option>
+    </select>
+
+    <p style="margin:10px 0;"><strong>OR</strong></p>
+
+    <input type="text" id="cityInput" placeholder="Type a city name">
+
+    <br><br>
+    <button type="submit">Check Weather</button>
+  </form>
+
+  <div id="weatherResult"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
