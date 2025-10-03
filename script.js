@@ -3,12 +3,12 @@ const citySelect = document.getElementById("citySelect");
 const cityInput = document.getElementById("cityInput");
 const weatherResult = document.getElementById("weatherResult");
 
-const OPENWEATHER_API_KEY = "28e2a9a382b7714c6f9efc8762951f4f"; // Replace with your real key
+// Get API key from .env
+const OPENWEATHER_API_KEY = import.meta.env.VITE_OPENWEATHER_API_KEY;
 
 weatherForm.addEventListener("submit", function (e) {
   e.preventDefault();
 
-  // Priority: typed city > dropdown city
   const city = cityInput.value.trim() || citySelect.value;
 
   if (!city) {
